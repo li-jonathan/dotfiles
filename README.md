@@ -10,3 +10,7 @@ touch ~/.ssh/config
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
 ```
+## Run install
+```
+sh install.sh
+```
