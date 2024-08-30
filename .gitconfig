@@ -1,0 +1,13 @@
+[user]
+	name = li-jonathan
+	email = li.jonathancj@gmail.com
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+[push]
+  autoSetupRemote = true
+[init]
+	defaultBranch = main
+  
