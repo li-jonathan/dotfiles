@@ -2,11 +2,9 @@
 
 echo "Starting new Macbook setup..."
 
-# Check for Oh My Zsh and install if we don't have it
-if test ! $(which omz); then
-  echo "Installing Oh My Zsh..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
+# Install Oh my Zsh
+echo "Installing Oh My Zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Copying ZSH config..."
 eval "cp ./.zshrc ~/.zshrc"
