@@ -7,7 +7,7 @@ brew "ffmpeg"
 brew "git"
 brew "yarn"
 brew "nvm"
-brew "node"
+brew "node@20" 
 
 # apps
 cask "iterm2"
