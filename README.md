@@ -1,16 +1,20 @@
 # dotfiles
 To setup a new Macbook
 
+## Run install
+Download zip and extract in home directory.
 
-## Create new SSH key to clone dotfiles repo
+```
+sh install.sh
+```
+
+
+## Create new SSH key
 ```
 ssh-keygen -t ed25519 -C "email@email.com" -f ~/.ssh/id_ed25519
 eval "$(ssh-agent -s)"
 touch ~/.ssh/config
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
+run 'pbcopy < ~/.ssh/id_ed25519.pub
 ```
-## Run install
-```
-sh install.sh
-```
+
